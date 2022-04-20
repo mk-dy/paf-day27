@@ -1,8 +1,8 @@
-drop database if exists mart;
+drop database if exists practicemart;
 
-create database mart;
+create database practicemart;
 
-use mart;
+use practicemart;
 
 create table po (
     ord_id int auto_increment not null,
